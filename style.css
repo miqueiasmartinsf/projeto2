@@ -1,0 +1,192 @@
+@font-face {
+    font-family: bebasnaue;
+    src: url(Utilitários/Fonte/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: idroid;
+    src: url(Utilitários/Fonte/idroid/idroid.otf);
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    background-color: #83E1AD;
+    height: 3000px;
+    min-width: 280px;
+    margin: auto;
+}
+
+header{
+    background: linear-gradient(180deg, #3DDC84 40%,#063D1E);
+    width: 100%;
+    height: 180px;
+}
+
+h1{
+    font-family: bebasnaue;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 100;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.464);
+
+    
+}
+
+.subtituloheader{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.464);
+    
+
+
+}
+
+nav{
+    background-color: #063D1E;
+
+
+}
+
+.linknav{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+
+
+}
+
+main{
+    background-color: white;
+    width: 70%;
+    height: 2900px;
+    margin: auto;
+    text-align: justify;
+    min-width: 600px;
+    max-width: 1200px;
+}
+
+.titulomain{
+    font-family: idroid;
+    color: rgb(1, 97, 1);
+}
+
+
+nav > a:hover{
+    background-color: green;
+}
+
+.topicosmain{
+    background: linear-gradient(45deg, #68a986b8,white 70%);
+    color: rgb(10, 116, 10);
+    font-family: idroid;
+
+
+
+
+}
+
+.divmain{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-indent: 20px;
+    height: 2800px;
+
+
+
+
+}
+
+
+
+
+.divvideo{
+    padding:20px;
+    background-color: #063D1E;
+    padding-bottom: 56%;
+    position: relative;
+
+}
+
+
+
+
+iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+
+
+.caixasumario{
+    background-color: #b9ffd8;
+    width: 100%;
+    height: 370px;
+    border-radius: 5%;
+    
+
+
+}
+
+.titulosumario{
+    color: white;
+    background-color: #30a161;
+    padding:5px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+
+
+
+}
+
+.lista1{
+    padding-left: 25px;
+    width: 50%;
+    margin: 0px;
+    display: inline-block;
+}
+
+.lista2{
+    display: inline-block;
+}
+
+.paragrafossumario{
+    padding-left: 5px;
+    text-indent: 20px;
+
+
+}
+
+footer{
+    width: 100%;
+    background-color: #063D1E;
+    height: 20px;
+    text-align: center;
+    
+}
+
+.textofooter{
+    color: white;
+
+}
+
+.imaagens{
+    min-width: 200px;
+    max-width: 800px;
+
+
+}
+
